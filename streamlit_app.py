@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 st.title('My First LangChain app')
-openai_api_key = ""
+openai_api_key = st.secrets["openai_api"]["key"]
 
 
 def generate_response(input_text):
