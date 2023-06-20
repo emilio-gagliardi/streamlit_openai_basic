@@ -1,3 +1,5 @@
 /.idea/
 /.streamlit/secrets.toml
 /logs/
+/.env
+/data/
