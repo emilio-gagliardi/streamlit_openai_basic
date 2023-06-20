@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-openai-basic"
+version = "0.1.1"
+description = "project to try out some gpt-enabled applications with private data"
+authors = ["Emilio Gagliardi <emilio.gagliardi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_openai_basic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chromadb = "0.3.25"
+langchain = "0.0.189"
+python-dotenv = "1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
