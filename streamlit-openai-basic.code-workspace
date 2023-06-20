@@ -5,14 +5,6 @@
 		}
 	],
 	"settings": {
-        "python.pythonPath": "${workspaceFolder}/venv/Scripts/python",
-		"terminal.integrated.defaultProfile.windows": "Command Prompt",
-		"terminal.integrated.profiles.windows": {
-			"Command Prompt": {
-			  "path": "C:\\Windows\\System32\\cmd.exe",
-			  "args": ["/K", "${workspaceFolder}/venv/Scripts/activate.bat"],
-			  "icon": "terminal-cmd"
-			}
-		  }
+        "terminal.integrated.defaultProfile.windows": "Command Prompt"
     }
 }
